@@ -1,0 +1,16 @@
+{
+  "comment": "Representative Stedi 271: active coverage + copay + deductible-remaining. Every payer quirk you discover becomes a new fixture file here.",
+  "payer": { "name": "EXAMPLE HEALTH PLAN" },
+  "planInformation": { "planDescription": "PPO GOLD", "groupNumber": "GRP12345" },
+  "benefitsInformation": [
+    { "code": "1", "coverageLevelCode": "IND", "serviceTypeCodes": ["30"],
+      "inPlanNetworkIndicatorCode": "Y", "planCoverage": "PPO GOLD" },
+    { "code": "B", "coverageLevelCode": "IND", "serviceTypeCodes": ["98"],
+      "inPlanNetworkIndicatorCode": "Y", "timeQualifierCode": "27",
+      "benefitAmount": "25.00" },
+    { "code": "C", "coverageLevelCode": "IND", "serviceTypeCodes": ["30"],
+      "inPlanNetworkIndicatorCode": "Y", "timeQualifierCode": "29",
+      "benefitAmount": "350.00" }
+  ],
+  "errors": []
+}

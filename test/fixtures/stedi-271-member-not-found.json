@@ -1,0 +1,5 @@
+{
+  "comment": "AAA 75 rejection — must normalize to member_not_found / correct_and_resubmit",
+  "benefitsInformation": [],
+  "errors": [ { "code": "75", "followupAction": "C" } ]
+}
