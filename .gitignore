@@ -1,14 +1,12 @@
-# dependencies & build output (regenerated, never committed)
+# dependencies & build output
 node_modules/
 dist/
 coverage/
 
-# SECRETS — the whole point. Template stays, real values never enter git.
 .env
 .env.*
 !.env.example
 
-# noise
 *.log
 .DS_Store
 Thumbs.db
