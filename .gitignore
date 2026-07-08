@@ -11,3 +11,4 @@ coverage/
 .DS_Store
 Thumbs.db
 docker-compose.yml
+smoke.sh
